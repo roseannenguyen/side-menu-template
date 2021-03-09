@@ -22,7 +22,8 @@ body {
 }
 
 
-.navigation:hover
+.navigation:hover,
+.navigation.active
  {
     width: 300px;
 } 
@@ -106,4 +107,4 @@ background: #000000;
 
 .toggle:active:before {
     content: '\f00d'
-} */
+} 
